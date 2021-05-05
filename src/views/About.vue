@@ -5,7 +5,7 @@
         <v-row align="end" class="lightbox white--text pa-2 fill-height">
           <v-col>
             <v-container>
-              <div class="headline">About Us</div>
+              <div class="headline">Cv video </div>
             </v-container>
           </v-col>
         </v-row>
@@ -13,12 +13,14 @@
     </div>
     <div class="block">
       <v-container>
-        <p>Ea pri vitae antiopam theophrastus, ut sit erat putent eruditi. Qui at mutat adversarium. Postulant delicatissimi ei qui, an nonumy dolorem nam. Cu philosophia instructior pri, nec cu mutat homero saperet, cu paulo ridens legendos has. Cu veri oportere pri, ad integre numquam iudicabit mel. Nec ea ferri iudicabit dissentiet. Ex solet melius omittantur his, in gloriatur vulputate mel. Ad nostro repudiandae ius, est amet molestie te. No est modus sensibus volutpat, et putent dissentias has, et sea eirmod vivendum. Paulo lucilius expetenda sea in, cu nam mazim sanctus ponderum. Te nam mundi corpora, dicat dolore debitis ius in. Indoctum adversarium definitionem an pro, an eam vidit utinam detracto.</p>
+        <p>Mit navn er <strong>Dustin Chwalek.</strong> Og er blevet opmærksom på jeres stilling opslag via  
+Erhversakademiets egen jobportal. Stilling tiltager mig på mange punkter. Der jeg beskriver mig som en ildsjælet og arrangeret person, som angår projekterne planlagt og målrettet. Jeg giver altid 110 procent i alle forskelllige størrelser af projekter, og lever af erfaringerer, såvel mislykken og succes momenter. Jeg vil beskrive mig som en loyalt og energisk medarbejder.
+Jeg er pt ansat som tilkalds vikar på et bosted, dog vægter jeg studieorientering og ønsker et dybere indblik omkring arbejde som multimediedesigner og de udfordringer. Fritiden bruger jeg stort set på at dyrke motionen, eller at opleve naturen. </p>
       </v-container>
     </div>
     <div class="block">
       <v-container>
-        <h2 class="text-center">Our Teams</h2>
+        <h2 class="text-center">Mine kompetencer</h2>
         <v-row>
           <v-col v-for="item in items" :key="item.id" class="d-flex child-flex" cols="12" sm="4">
             <v-card flat tile class="mx-auto">
@@ -32,7 +34,13 @@
         </v-row>
       </v-container>
     </div>
-  </v-content>
+  
+<section>
+      <div class="youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QqvpGUWuQrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+</v-content>
 </template>
 
 <script>
@@ -44,23 +52,33 @@ export default {
         {
           id: 1,
           src: require("../assets/images/team1.jpg"),
-          name: 'Peter Smith',
-          title: 'Director'
+          name: 'Adobe',
+          title: 'Redigeringsprogrammer '
         },
         {
           id: 2,
           src: require("../assets/images/team2.jpg"),
-          name: 'Roy Perry',
-          title: 'Photographer'
+          name: 'User Experimence',
+          title: 'Undersøgelses Design'
         },
         {
           id: 3,
           src: require("../assets/images/team3.jpg"),
-          name: 'Lisa White',
-          title: 'Freelancer'
+          name: 'Dustin Chwalek',
+          title: 'Multimedia Design'
         }
       ]
     };
   }
 };
 </script>
+
+<style lang="scss">
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+</style>

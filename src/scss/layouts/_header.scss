@@ -2,6 +2,7 @@ header {
   .v-toolbar__title {
     font-weight: 600;
     text-transform: uppercase;
+    color: rgb(130, 159, 166);
   }
 
   .v-toolbar__content {
@@ -15,7 +16,7 @@ header {
   .v-toolbar__items {
     .v-btn__content {
       a {
-        color: $black;
+        color: rgb(130, 159, 166);
       }
     }
 

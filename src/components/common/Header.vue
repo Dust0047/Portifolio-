@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-toolbar flat class="mainHeader">
-      <v-toolbar-title>Photography</v-toolbar-title>
+      <v-toolbar-title>Dustin´s Portifolio</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn text><router-link to="/">Home</router-link></v-btn>

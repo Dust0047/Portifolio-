@@ -9,8 +9,16 @@
         </v-card-text>
         <v-card-text
           class="pt-0"
-        >Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</v-card-text>
+        >Download mit fulde Cv. Med værker udarbejdet i 2021 med balandt andet logo design og meget mere Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quae quasi placeat fugit reprehenderit dolorum in voluptatum at error nisi vel facere ipsa eveniet quo laborum, ullam odit eum facilis?</v-card-text>
         <v-divider></v-divider>
+         <v-btn 
+      id="button"
+      elevation="2"
+      color="green">
+      <a href="https://erhvervsakademisydvest-my.sharepoint.com/:b:/g/personal/dust0047_easv365_dk/EXavjvpUPS1EpqjWJRL6AXwBGjTm-1mZ4krGDc0RA3U9yA?e=N8te6g" target="_blank">
+      Download
+      </a>
+      </v-btn>
         <v-card-text>
           {{ new Date().getFullYear() }} —
           <strong>Photography Vuetify Project</strong>
